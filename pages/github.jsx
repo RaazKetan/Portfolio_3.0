@@ -58,7 +58,7 @@ export async function getStaticProps() {
   console.log(user);
 
   const repoRes = await fetch(
-    `https://api.github.com/users/md-anas-sabah/repos?per_page=100`,
+    `https://api.github.com/users/raazketan/repos?per_page=100`,
     {
       headers: {
         // Authorization: `token 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`,
@@ -73,7 +73,7 @@ export async function getStaticProps() {
 
   return {
     props: { title: "GitHub", repos, user },
-    revalidate: 10,
+    revalidate: 20,
   };
 }
 
