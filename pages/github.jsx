@@ -51,7 +51,7 @@ const GithubPage = ({ repos, user }) => {
 export async function getStaticProps() {
   const userRes = await fetch(`https://api.github.com/users/raazketan`, {
     headers: {
-      Authorization: `token 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`,
+      // Authorization: `token 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`,
     },
   });
   const user = await userRes.json();
@@ -61,7 +61,7 @@ export async function getStaticProps() {
     `https://api.github.com/users/md-anas-sabah/repos?per_page=100`,
     {
       headers: {
-        Authorization: `token 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`,
+        // Authorization: `token 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`,
       },
     }
   );
