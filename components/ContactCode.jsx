@@ -23,8 +23,8 @@ const contactItems = [
   },
   {
     social: "instagram",
-    link: "raaz_ketan",
-    href: "https://www.instagram.com/raaz_ketan",
+    link: "raaz.ketan",
+    href: "https://www.instagram.com/raaz.ketan",
   },
   {
     social: "leetcode",
