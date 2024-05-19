@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Imagine",
     "image": "/Imagine.png",
-    "description": "Imaginfy is a web application designed to facilitate pair programming sessions with random developers.",
+    "description": "Imagine is an innovative image transformation and editing platform powered by cutting-edge artificial intelligence technology. From basic adjustments like cropping and resizing to advanced AI-driven features such as style transfer, object removal, and image synthesis",
     "tags": ["typescript", "next", "node", "mongodb", "tailwind", "stripe", "cloudinary", "clerk"],
     "source_code": "https://github.com/RaazKetan/imagine",
     "demo": "https://imagine-alpha.vercel.app/"
@@ -21,7 +21,7 @@
     "id": 3,
     "name": "Readme Editor",
     "image": "/readme.png",
-    "description": "The Hotel Management System App is a web application built using React and Supabase for database management and authentication purposes.",
+    "description": "Readme Editor empowers developers to efficiently craft informative and visually appealing READMEs that effectively communicate the purpose, usage, and installation instructions of their projects. ",
     "tags": [
       "javascript",
       "react",
@@ -32,6 +32,21 @@
     ],
     "source_code": "https://github.com/RaazKetan/ReadmeEditor",
     "demo": "https://readme-editor-isr265x91-ketan-rajs-projects.vercel.app/"
+  },
+  {
+    "id": 4,
+    "name": "Ketan Raj's Portfolio",
+    "image": "/port.png",
+    "description": "Tailored to reflect your unique skills and experiences, this platform serves as a digital portfolio where you can highlight your projects, share your achievements, and showcase your skills to potential employers, clients, or collaborators. With a sleek and intuitive design.",
+    "tags": [
+      "javascript",
+      "nextJs",
+      "node",
+      "github-api",
+      "tailwind"
+    ],
+    "source_code": "https://github.com/RaazKetan/Portfolio_3.0",
+    "demo": "https://ketanraj.vercel.app/"
   }
 
 ]
