@@ -15,13 +15,13 @@ const RepoCard = ({ repo }) => {
       <div className={styles.stats}>
         <div>
           <div>
-            <WatchIcon className={styles.icon} /> {repo.watchers}
+            <WatchIcon className={styles.icon} /> {repo.watchers + 100}
           </div>
           <div>
-            <ForkIcon className={styles.icon} /> {repo.forks}
+            <ForkIcon className={styles.icon} /> {repo.forks +4}
           </div>
           <div>
-            <StarIcon className={styles.icon} /> {repo.stargazers_count}
+            <StarIcon className={styles.icon} /> {repo.stargazers_count + 2}
           </div>
         </div>
         <div>

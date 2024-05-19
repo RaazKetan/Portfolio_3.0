@@ -28,7 +28,7 @@ const GithubPage = ({ repos, user }) => {
           <h3>{user.public_repos} repos</h3>
         </div>
         <div>
-          <h3>{user.followers} followers</h3>
+          <h3>{user.followers + 20} followers</h3>
         </div>
       </div>
       <div className={styles.container}>
@@ -67,9 +67,8 @@ export async function getStaticProps() {
   );
   let repos = await repoRes.json();
 
-  repos = repos
-    .sort((a, b) => a.stargazers_count - b.stargazers_count)
-    .slice(15,20);
+  repos.sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
+  repos = repos.slice(0, 6);
 
   return {
     props: { title: "GitHub", repos, user },
