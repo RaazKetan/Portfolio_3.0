@@ -7,7 +7,7 @@ const ArticlesPage = ({ articles }) => {
       <h3>
         Recent Posts from{" "}
         <a
-          href="https://dev.to/mdanassabah"
+          href="https://dev.to/raazketan"
           target="_blank"
           rel="noopener"
           className={styles.underline}
@@ -21,33 +21,33 @@ const ArticlesPage = ({ articles }) => {
         ))} */}
         <ArticleCard
           url={
-            "https://dev.to/mdanassabah/understanding-json-web-tokens-jwt-3n68"
+            "https://dev.to/raazketan/getting-started-with-react-a-beginners-guide-463i"
           }
           cover_image={
-            "https://res.cloudinary.com/practicaldev/image/fetch/s--EwnV5kiC--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/awuv1339bq7ln6orrdec.png"
+            "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fbqudthmd7yyda0wuewke.jpeg"
           }
           description={
-            "JSON Web Tokens (JWT) are a compact, URL-safe means of representing claims to be transferred between two parties. In web development, JWTs are commonly..."
+            "React is component-based, which means you can build encapsulated components that manage their own state and compose them to make complex UIs...."
           }
-          title={"Understanding JSON Web Tokens (JWT)"}
-          page_views_count={">25"}
+          title={"Getting Started with React: A Beginner's Guide"}
+          page_views_count={">95"}
           public_reactions_count={"5"}
           comments_count={"0"}
         />
         <ArticleCard
-          url={"https://dev.to/mdanassabah/typescript-react-2d4b"}
+          url={"https://dev.to/raazketan/overcoming-placement-challenges-for-tier-3-college-students-28cp"}
           cover_image={
-            "https://res.cloudinary.com/practicaldev/image/fetch/s--X8DtWdxA--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/lk4xyn1glcyerqqs66xe.png"
+            "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fjlucc9an2yuxddsu89jq.jpeg"
           }
           description={
-            "You all think why we need TypeScript when we are just happy creating React App using JavaScript. Now, I was at that stage as well but having used TypeScript ..."
+            "Securing a good placement is a significant milestone for students, marking the transition from academic life to professional careers..."
           }
-          title={"TypeScript + React"}
+          title={"Overcoming Placement Challenges for Tier 3 College Students"}
           page_views_count={"296"}
           public_reactions_count={"5"}
           comments_count={"1"}
         />
-        <ArticleCard
+        {/* <ArticleCard
           url={"https://dev.to/mdanassabah/life-cycle-of-a-component-56cp"}
           cover_image={
             "https://res.cloudinary.com/practicaldev/image/fetch/s--RDdxoyBw--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/g1gg7j4clkbh0i84eka7.png"
@@ -98,7 +98,7 @@ const ArticlesPage = ({ articles }) => {
           page_views_count={"232"}
           public_reactions_count={"11"}
           comments_count={"0"}
-        />
+        /> */}
       </div>
     </>
   );
