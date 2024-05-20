@@ -47,58 +47,20 @@ const ArticlesPage = ({ articles }) => {
           public_reactions_count={"5"}
           comments_count={"1"}
         />
-        {/* <ArticleCard
-          url={"https://dev.to/mdanassabah/life-cycle-of-a-component-56cp"}
-          cover_image={
-            "https://res.cloudinary.com/practicaldev/image/fetch/s--RDdxoyBw--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/g1gg7j4clkbh0i84eka7.png"
-          }
-          description={
-            "In a React application, a component's lifecycle refers to the various stages it goes through, from the moment it's created to when it's removed from the DOM. "
-          }
-          title={"Life Cycle of a Component"}
-          page_views_count={"343"}
-          public_reactions_count={"6"}
-          comments_count={"0"}
-        />
         <ArticleCard
-          url={"https://dev.to/mdanassabah/react-redux-4ldk"}
+          url={"https://dev.to/raazketan/getting-started-with-aws-amplify-simplifying-full-stack-development-13e8"}
           cover_image={
-            "https://res.cloudinary.com/practicaldev/image/fetch/s--tcZq71xv--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ulbh4rjjxhxz4ynowygh.jpg"
+            "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F5tx3qgv2d1qnokwilw6m.jpg"
           }
           description={
-            " Redux is a state container and in any JavaScript application the state of application can change.But what exactly do we mean by state of an application?..."
+            "AWS Amplify, a powerful suite of tools and services from Amazon Web Services, aims to simplify the process of building scalable and secure full-stack applications..."
           }
-          title={"React + Redux"}
-          page_views_count={"161"}
-          public_reactions_count={"6"}
-          comments_count={"2"}
+          title={"Getting Started with AWS Amplify: Simplifying Full-Stack Development"}
+          page_views_count={"46"}
+          public_reactions_count={"15"}
+          comments_count={"1"}
         />
-        <ArticleCard
-          url={"https://dev.to/mdanassabah/callback-hell-and-promises-4mo1"}
-          cover_image={
-            "https://res.cloudinary.com/practicaldev/image/fetch/s--BE_B4Me5--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/sh436pszjdyiczpfjpil.jpg"
-          }
-          description={
-            "Callback is a powerful way to do asynchronous thing in JavaScript. It is a function which is to be executed after another function has finished execution."
-          }
-          title={"Callback Hell and Promises"}
-          page_views_count={"48"}
-          public_reactions_count={"6"}
-          comments_count={"0"}
-        />
-        <ArticleCard
-          url={"https://dev.to/mdanassabah/nextjs-next-auth-5856"}
-          cover_image={
-            "https://res.cloudinary.com/practicaldev/image/fetch/s--n8wCV2Oa--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ul5mxl9hasuvd9jnh51f.jpg"
-          }
-          description={
-            "Next is a full stack , open source react framework for production application by the company named Vercel."
-          }
-          title={"Next.js: Next-auth"}
-          page_views_count={"232"}
-          public_reactions_count={"11"}
-          comments_count={"0"}
-        /> */}
+       
       </div>
     </>
   );
